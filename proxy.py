@@ -23,7 +23,7 @@ class ProxySwitcher:
         menu = Gtk.Menu()
 
         # 添加“Toggle Proxy”菜单项
-        toggle_item = Gtk.MenuItem(label="Toggle Proxy")
+        toggle_item = Gtk.MenuItem(label="Switch")
         toggle_item.connect("activate", self.toggle_proxy)  # 绑定切换代理状态的函数
         menu.append(toggle_item)
 
