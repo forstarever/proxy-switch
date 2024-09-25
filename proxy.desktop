@@ -3,4 +3,4 @@ Name=proxy
 Exec=/opt/proxy-GUI/proxy.py
 Icon=/opt/proxy-GUI/button.png
 Type=Application
-Terminal=true
+Terminal=false
