@@ -27,8 +27,9 @@ switch proxy mode(Manual/Disabled) for linux(Ubuntu 22.04)
 ```
 mkdir /opt/proxy-GUI/
 cd ~/Downloads/proxy-switch/  # 请自行切换到代码所在位置
-cp proxy.py buttion.png proxy-on.png proxy-off.png /opt/proxy-GUI/ 
+sudo cp proxy.py button.png proxy-on.png proxy-off.png /opt/proxy-GUI/ 
 cp proxy.desktop ~/.local/share/applications/
+cd ~/.local/share/applications/
 chmod a+x proxy.desktop
 ```
 
